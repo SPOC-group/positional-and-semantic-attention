@@ -1,0 +1,24 @@
+#!/bin/bash
+
+while true; do
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 10 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 10 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 15 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 15 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 23 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 23 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 36 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 36 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 56 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 56 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 87 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 87 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 135 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 135 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 209 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 209 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 323 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 323 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 500 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed
+	python3 -m src.empirics_mixed_teacher_softmax --optim=GD --alphas 1.5 1.5 1 --d 500 --L 2 --r 1 --sigma 0.5 --delta 0.4 --omega 0.3 --N_iter 1 --lmbda 0.01 --lmbda_linear 0.0001 --exp 06_paper_toy_example_scaling --informed_position
+done
